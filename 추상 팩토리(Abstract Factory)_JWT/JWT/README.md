@@ -1,3 +1,10 @@
+<img width="491" height="447" alt="스크린샷 2025-10-11 오전 11 37 47" src="https://github.com/user-attachments/assets/a4bd5c4f-2b80-4ccb-9aa9-e5de5a940e11" />
+
+### ⚒️ JWT란
+ JSON Web Token의 약자로, 사용자의 인증 및 인가 정보를 JSON 형식으로 담아 전송하는 암호화된 토큰입니다.<br/>
+ 클라이언트와 서버 간에 안전하게 정보를 주고받기 위해 사용되며, 헤더, 페이로드, 서명의 세 부분으로 구성됩니다. <br/>
+ 서버는 토큰을 검증하기만 하면 되므로, 세션과 달리 별도의 저장소 관리가 필요 없어 무상태(Stateless) 서버 구축에 유리합니다.<br/>
+
 ### 📄 JWT 수동 구현
 Python 표준 라이브러리만을 사용하여 JWT(Access Token)의 발급 및 검증 로직을 직접 구현하고, 이를 분리된 파일 구조로 실행하는 예시입니다.
 1. jwt_functions.py
